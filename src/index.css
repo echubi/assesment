@@ -81,7 +81,7 @@ textarea {
       #6d6d6d -78.47%,);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 479px) {
   h2{
     font-size: 30px;
     padding-bottom: 20px;
