@@ -1,6 +1,11 @@
 import styles from "../styles";
 
+
+
 const Hero = () => {
+	const showAlert = () => {
+		alert("Hello, World!");
+	};
   return (
 		<section className={`main ${styles.paddingY}`}>
 			<div className="px-[15px] pt-[230px] pb-[50px] ">
@@ -13,7 +18,7 @@ const Hero = () => {
 						eiusmod tempor
 					</p>
 					<div className="m-[auto] block">
-						<button type="button" className="button ">
+						<button type="button" className="button " onClick={showAlert}>
 							Click Me
 						</button>
 					</div>
