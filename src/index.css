@@ -8,6 +8,10 @@
 .navbar {
   @apply font-roboto font-normal cursor-pointer text-[16px] text-black
 }
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 .main {
   background-image: url(./assets/main_background_1.png);
   height: 700px;
@@ -21,8 +25,11 @@
   align-items: center !important;
 }
 .button {
-   @apply w-[300px] bg-transparent font-roboto text-white text-[20px] text-center font-bold border-[1px] border-solid uppercase py-4 px-6;
+   @apply bg-transparent font-roboto text-black text-[20px] text-center font-bold uppercase py-4 px-6;
 
+}
+.button:hover {
+  @apply font-semibold bg-black text-white transition-all duration-300 ease-in-out;
 }
 
 input {
@@ -34,7 +41,7 @@ textarea {
 }
 
 .button_contact {
-  @apply w-[100px] font-poppins text-[#c9c9c9] text-[15px] text-center border-[1px] border-solid uppercase py-4 px-6 border-[#c9c9c9]
+  @apply w-[100px] font-poppins text-black text-[15px] text-center border-[1px] border-solid uppercase py-4 px-6 border-black
 }
 .button_contact:hover {
   @apply font-semibold bg-black text-white transition-all duration-300 ease-in-out;
@@ -42,4 +49,34 @@ textarea {
 
 .banner {
   background-image: url(./assets/banner.png);
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.bg-black-gradient {
+  background: linear-gradient(144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,);
 }

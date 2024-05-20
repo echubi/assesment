@@ -1,3 +1,4 @@
+import logo from "./logo.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
 import about from "./about.png"
@@ -7,4 +8,4 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 
-export { menu, close, about, contact, facebook, instagram, linkedin, twitter };
+export { menu, close, about, contact, facebook, instagram, linkedin, twitter, logo };

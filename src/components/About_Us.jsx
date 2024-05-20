@@ -3,7 +3,7 @@ import styles, { layout } from "../styles";
 
 const About_Us = () => {
 	return (
-		<section id="about" className={`pt-[300px] ${layout.sectionReverse}`}>
+		<section id="about" className={`${layout.sectionReverse}`}>
 			<div className={layout.sectionImgReverse}>
 				<img
 					src={about}

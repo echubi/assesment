@@ -1,12 +1,16 @@
-import { useState } from "react";
-import { close, menu } from "../assets";
+import { useState } from "react"
+
+import {close, logo, menu } from "../assets"
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+
   return (
 		<nav className="w-full flex py-6 justify-between items-center">
-			<div className="w-[30%]" />
-			<ul className="list-none sm:flex hidden justify-between items-center flex-1 ">
+			<img src={logo} alt="logo" />
+
+			<ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
 				<li className="navbar mr-10 ">
 					<a href="">Home</a>
 				</li>
@@ -17,8 +21,8 @@ const Navbar = () => {
 					<a href="#contact">Contacts</a>
 				</li>
 			</ul>
-			<div className="w-[30%]" />
-			<div className="sm:hidden flex flex-1 justify-end items-center">
+
+			<div className="sm:hidden flex flex-1 justify-end items-center z-100">
 				<img
 					src={toggle ? close : menu}
 					alt="menu"
@@ -29,17 +33,17 @@ const Navbar = () => {
 				<div
 					className={`${
 						toggle ? "flex" : "hidden"
-					} p-6 bg-black absolute top-20 right-0 mx-4 my-2 min-w[140px] rounded-xl sidebar`}
+					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xl  sidebar`}
 				>
 					<ul className="list-none flex flex-col justify-end items-center flex-1">
-						<li className="navbar">
+						<li className="navbar mr-10 mb-4 ">
 							<a href="">Home</a>
 						</li>
-						<li className="navbar">
-							<a href="">About</a>
+						<li className="navbar mr-10 mb-4">
+							<a href="#about">About</a>
 						</li>
-						<li className="navbar">
-							<a href="">Contacts</a>
+						<li className="navbar ml-[-20px]">
+							<a href="#contact">Contacts</a>
 						</li>
 					</ul>
 				</div>
@@ -49,3 +53,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
