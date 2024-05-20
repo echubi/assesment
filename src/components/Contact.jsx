@@ -80,7 +80,7 @@ const Contact = () => {
 				</form>
 			</div>
 
-			<div className={layout.sectionImg}>
+			<div className={`contact_hide ${layout.sectionImg}`}>
 				<img
 					src={contact}
 					alt="contact"

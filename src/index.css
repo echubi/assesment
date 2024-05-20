@@ -75,12 +75,16 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
-  h2{
+  .hero_title{
     font-size: 40px;
     padding-bottom: 20px;
+    padding-top: 100px;
+    line-height: 45px;
   }
   p {
     padding-bottom: 20px ;
   }
-
+  .contact_hide {
+    display: none;
+  }
 }
