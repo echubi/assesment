@@ -36,13 +36,13 @@ const Navbar = () => {
 					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xl sidebar`}
 				>
 					<ul className="list-none flex flex-col justify-end items-center flex-1">
-						<li className="navbar mr-10 mb-4 ">
+						<li className="navbar-sidebar mr-10 mb-4 ">
 							<a href="">Home</a>
 						</li>
-						<li className="navbar mr-10 mb-4">
+						<li className="navbar-sidebar mr-10 mb-4">
 							<a href="#about">About</a>
 						</li>
-						<li className="navbar ml-[-20px]">
+						<li className="navbar-sidebar ml-[-20px]">
 							<a href="#contact">Contacts</a>
 						</li>
 					</ul>

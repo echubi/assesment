@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter,} from "../assets";
+import { facebook, instagram, twitter,} from "../assets";
 
 export const footerLinks = [
 	{
@@ -70,21 +70,16 @@ export const socialMedia = [
 	{
 		id: "social-media-1",
 		icon: instagram,
-		link: "https://www.instagram.com/",
+		link: "https://www.instagram.com/chubi_o/",
 	},
 	{
 		id: "social-media-2",
 		icon: facebook,
-		link: "https://www.facebook.com/",
+		link: "https://web.facebook.com/david.ameh.543/",
 	},
 	{
 		id: "social-media-3",
 		icon: twitter,
-		link: "https://www.twitter.com/",
-	},
-	{
-		id: "social-media-4",
-		icon: linkedin,
-		link: "https://www.linkedin.com/",
+		link: "https://twitter.com/udale_ameh",
 	},
 ];

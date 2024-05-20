@@ -8,18 +8,18 @@ const About_Us = () => {
 				<img
 					src={about}
 					alt="about"
-					className="w-[100%] h-[100%] relative z-[5]"
+					className="w-[100%] h-[100%] relative z-[5] rounded-[36px]"
 				/>
 			</div>
 
 			<div className={layout.sectionInfo}>
-				<h2 className={`text-black ${styles.heading}`}>About Us</h2>
+				<h2 className={`text-black ${styles.heading}`}>About Me</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Tincidunt nunc pulvinar sapien et ligula ullamcorper
-					malesuada proin. Hendrerit dolor magna eget est. Odio facilisis mauris
-					sit amet massa vitae tortor condimentum lacinia. Tristique senectus et
-					netus et. Adipiscing elit ut aliquam purus sit. Iaculis urna id
-					volutpat lacus.
+					A confident and highly motivated professional with experience in
+					working in a busy environment with many tasks and delivering as
+					expected. I am also skilled in analysis, problem solving and
+					communication through work experience. Very proficient in Javascript,
+					React and Typescript.
 				</p>
 			</div>
 		</section>
