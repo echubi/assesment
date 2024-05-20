@@ -22,7 +22,7 @@ const Navbar = () => {
 				</li>
 			</ul>
 
-			<div className="sm:hidden flex flex-1 justify-end items-center z-100">
+			<div className="sm:hidden flex flex-1 justify-end items-center z-[100]">
 				<img
 					src={toggle ? close : menu}
 					alt="menu"
@@ -33,7 +33,7 @@ const Navbar = () => {
 				<div
 					className={`${
 						toggle ? "flex" : "hidden"
-					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xl  sidebar`}
+					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xl sidebar`}
 				>
 					<ul className="list-none flex flex-col justify-end items-center flex-1">
 						<li className="navbar mr-10 mb-4 ">
