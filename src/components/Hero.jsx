@@ -10,7 +10,7 @@ const Hero = () => {
 		<section className={`main ${styles.paddingY}`}>
 			<div className="px-[15px] pt-[230px] pb-[50px] ">
 				<div className="flex flex-col w-full ">
-					<h2 className="font-roboto font-bold xs:text-[40px] ss:text-[50px] text-[60px] text-black ss:leading-[100px] leading-[15px] xs:pb-[20px] text-center">
+					<h2 className="font-roboto font-bold xs:text-[50px] ss:text-[50px] text-[60px] text-black ss:leading-[100px] leading-[15px] xs:pb-[20px] text-center">
 						Welcome To My Website
 					</h2>
 					<p className="font-poppins text-[20px] text-black text-center">
